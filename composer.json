@@ -1,0 +1,35 @@
+{
+    "name": "HasanAkinci/turkseed",
+    "type": "library",
+    "description": "An artisan package to import a TemplateShares database into UNIT3D.",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "UNIT3D",
+        "TemplateShares",
+        "Database",
+        "Import"
+    ],
+    "authors": [
+        {
+            "name": "HasanAkinci (Turkseed)",
+            "homepage": "https://github.com/HasanAkinci",
+            "role": "Founder, Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "HasanAkinci\\TemplateSharesToUnit3d\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HasanAkinci\\TemplateSharesToUnit3d\\ServiceProvider"
+            ]
+        }
+    }
+}
